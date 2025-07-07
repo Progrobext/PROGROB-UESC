@@ -220,3 +220,6 @@ void drawText() {
 3.  **Abra o Código 2** no Processing. **Edite a linha** `myPort = new Serial(this,"COM4", 9600);` para usar a porta serial correta do seu Arduino.
 4.  Clique em **Executar (Play)** no Processing.
 5.  A tela do radar aparecerá e começará a funcionar
+
+**Video de Apoio:**
+[Manual do Mundo - Sonar](https://www.youtube.com/watch?v=2z8xKo8yD14)
