@@ -1,5 +1,6 @@
 # Sentindo o Ambiente: Sensor de Luz e Som
 [Slides da Aula](https://www.figma.com/deck/YSVpbJFXwkHVURdGHEZ4nB/Pratica-05---ProjExt?node-id=1-660&t=3Xa6AZHMQqfQdtgJ-1)
+
 **Introdução:**
 Nesta prática, vamos fazer o Arduino interagir com o ambiente! Usaremos um sensor de luz (LDR) para medir a luminosidade e um buzzer piezo para criar um som. O interessante é que a velocidade dos bipes do buzzer vai mudar dependendo de quanta luz o sensor detecta. É como um pequeno "contador Geiger" para luz!
 
