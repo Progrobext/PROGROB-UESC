@@ -14,7 +14,7 @@ Nesta prática, vamos aprender a controlar a posição exata de um servo motor. 
 **Montando o Circuito:**
 Siga a tabela de conexões abaixo. Preste atenção especial às cores dos fios do servo motor.
 
-![Circuito Servomotor](https://github.com/T-arcioSantos/projext-robotica-programacao-em/blob/main/Praticas_Tarcio/04/Pratica%2004_%20Manipulando%20um%20servomotor.png)
+![Circuito Servomotor](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito10.png)
 
 **Tabela de Conexões:**
 

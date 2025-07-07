@@ -22,7 +22,7 @@ Nesta prática, vamos fazer o Arduino interagir com o ambiente! Usaremos um sens
 **Montando o Circuito:**
 Siga o diagrama abaixo com atenção. O LDR não tem uma "perna certa" para conectar (não tem polaridade). O Piezo geralmente tem um terminal marcado com `+` (positivo) ou um fio vermelho, que deve ser conectado ao pino do Arduino, e o outro terminal (negativo ou fio preto) ao GND.
 
-**(Inserir aqui o diagrama claro do circuito, como o do Slide 6 da aula)**
+![Circuito Sensor de Luz](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito05.png)
 
 **Passos da Montagem:**
 1.  Conecte o pino `5V` do Arduino a uma das linhas vermelhas (+) da protoboard (barramento de alimentação positivo).
