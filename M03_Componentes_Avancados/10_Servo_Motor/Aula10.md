@@ -1,4 +1,4 @@
-### Controlando um Servo Motor com Potenciômetro
+# Controlando um Servo Motor com Potenciômetro
 
 **Introdução:**
 Nesta prática, vamos aprender a controlar a posição exata de um servo motor. Usaremos um potenciômetro (um botão giratório) como um controle manual para dizer ao servo para qual ângulo ele deve se mover. É um dos blocos de construção fundamentais para a robótica!

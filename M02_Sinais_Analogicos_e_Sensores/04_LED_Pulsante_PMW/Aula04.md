@@ -1,4 +1,4 @@
-### Lâmpada Pulsante com PWM
+# Lâmpada Pulsante com PWM
 
 **Introdução:**
 Nesta prática, vamos aprender a controlar o brilho de um LED usando a técnica de PWM (Pulse Width Modulation) e a usar um interruptor deslizante com o Arduino. Vamos montar um circuito com um LED verde e um interruptor, e usaremos matemática para criar um efeito suave de pulsação.

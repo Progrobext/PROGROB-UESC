@@ -1,4 +1,4 @@
-### Exibindo Mensagens no Display LCD
+# Exibindo Mensagens no Display LCD
 
 **Introdução:**
 Nesta prática, vamos aprender a usar um Display de Cristal Líquido (LCD) 16x2 com o Arduino. Com ele, podemos mostrar textos, números e informações dos nossos projetos!

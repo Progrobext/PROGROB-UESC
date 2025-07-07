@@ -1,4 +1,4 @@
-### Semáforo Interativo com Botão para Pedestres
+# Semáforo Interativo com Botão para Pedestres
 
 **Introdução:**
 Nesta prática, vamos ampliar o projeto anterior do LED piscante para criar um semáforo interativo com controle para pedestres. Você irá conectar vários LEDs para simular as luzes do semáforo para carros e pedestres, além de usar um botão para que o pedestre possa solicitar a travessia. O Arduino vai reagir ao botão, alterando as luzes para garantir segurança na travessia.

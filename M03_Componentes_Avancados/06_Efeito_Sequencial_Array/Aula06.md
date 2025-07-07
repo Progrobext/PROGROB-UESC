@@ -1,4 +1,4 @@
-### Efeito de Iluminação Sequencial com LEDs**
+# Efeito de Iluminação Sequencial com LEDs**
 
 **Introdução:**
 Nesta prática, você aprenderá a controlar 10 LEDs de forma sequencial utilizando **arrays no Arduino**, criando um efeito visual semelhante ao do carro **KITT**, da série *A Super Máquina*.
