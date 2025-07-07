@@ -1,4 +1,4 @@
-### Semáforo com LEDs e Arduino
+# Semáforo com LEDs e Arduino
 
 **Introdução:**
 Nesta prática, vamos simular um semáforo real usando três LEDs e o Arduino. A sequência segue o padrão do Reino Unido, onde há uma transição com luz vermelha e amarela acesas antes de mudar para o verde.
