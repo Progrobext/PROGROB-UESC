@@ -1,4 +1,4 @@
-# **Prática 5 – Construindo um Radar SONAR com Arduino**
+# **Projeto Final – Construindo um Radar SONAR com Arduino**
 
 **Introdução:**
 Nesta prática, vamos construir um incrível radar que usa ondas sonoras para detectar objetos, assim como um submarino. O sistema usará um servo motor para girar um sensor ultrassônico, escaneando o ambiente. Os dados coletados serão enviados para o computador, que desenhará um mapa visual do que foi detectado em uma tela de radar!
