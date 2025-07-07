@@ -1,5 +1,5 @@
 # Fazendo um LED Piscar
-[Slides da Aula](https://www.figma.com/slides/oPLEXkBsY8yasrFFyeiz16/Pratica-01---ProjExt?node-id=1-660&t=5TadbJDZJMOzxRAO-1)
+[Slides da Aula](https://www.figma.com/deck/oPLEXkBsY8yasrFFyeiz16/Pratica-01---ProjExt?node-id=1-660&t=u26MVLnp4AXhZoSK-1)
 
 **Introdução:**
 Bem-vindo ao mundo do Arduino! Nesta primeira prática, vamos montar nosso primeiro circuito eletrônico e escrever um programa simples para fazer um LED (uma pequena luz) piscar.
