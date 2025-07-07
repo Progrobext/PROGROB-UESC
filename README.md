@@ -51,8 +51,12 @@ Agora que você já domina o básico, é hora de explorar componentes mais compl
 * **[Aula 09: Display LCD 16x2](https://github.com/Progrobext/PROGROB-UESC/blob/main/M03_Componentes_Avancados/09_Display_LCD/Aula09.md)** 🧾
     * Dê uma voz ao seu projeto. Aprenda a conectar e programar um display de LCD para exibir mensagens, valores de sensores ou qualquer informação que você queira.
 * **[Aula 10: Servo Motor](https://github.com/Progrobext/PROGROB-UESC/blob/main/M03_Componentes_Avancados/10_Servo_Motor/Aula10.md)** 💪
-    * Entre no mundo da robótica. Controle a posição de um servo motor com precisão usando um potenciômetro. Este é o primeiro passo para construir braços robóticos, robôs que andam e muito mais.
+    * Um passo a mais no mundo da robótica. Controle a posição de um servo motor com precisão usando um potenciômetro. Este é o primeiro passo para construir braços robóticos, robôs que andam e muito mais.
 
+### **Projeto Final: Colocando a mão na massa** 🤖
+
+* **[Construindo um Radar SONAR com Arduino](https://github.com/Progrobext/PROGROB-UESC/blob/main/Projeto%20Final/ProjetoFinal.md)** 📡
+  * Junte o que você aprendeu sobre sensores e atuadores para dar vida a um radar funcional.
 ---
 
 Tem alguma dúvida ou sugestão? Abra uma *issue* aqui no repositório.
