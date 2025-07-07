@@ -1,7 +1,7 @@
 # Controle de Velocidade com Potenciômetro
 
 **Introdução:**
-Nesta continuação do Projeto 5, vamos adicionar um **potenciômetro** ao circuito dos 10 LEDs. Com isso, poderemos **controlar a velocidade** das luzes enquanto o programa estiver rodando!
+Nesta continuação do Projeto 6, vamos adicionar um **potenciômetro** ao circuito dos 10 LEDs. Com isso, poderemos **controlar a velocidade** das luzes enquanto o programa estiver rodando!
 
 **Componentes Necessários:**
 
