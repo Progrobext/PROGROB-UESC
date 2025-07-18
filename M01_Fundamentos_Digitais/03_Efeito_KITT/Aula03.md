@@ -20,42 +20,51 @@ Monte o circuito conectando os LEDs aos pinos digitais 4 a 13, cada um com um re
 **Código Arduino:**
 
 ```cpp
-// Projeto 3–1 Efeito de Iluminação Sequencial com LEDs
-
-byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};  // Pinos dos LEDs
-int ledDelay = 80;                                   // Tempo entre os LEDs
-int direction = 1;                                   // Direção da sequência
+byte ledPin[] = {8, 9, 10, 11, 12, 13};  // Cria um array para os pinos dos LEDs
+int ledDelay = 80;                        // Intervalo entre as alterações
+int direction = 1;
 int currentLED = 0;
 unsigned long changeTime;
 
 void setup() {
-  for (int x = 0; x < 10; x++) {
-    pinMode(ledPin[x], OUTPUT);
-  }
+  // Define todos os pinos como saída
+  pinMode(ledPin[0], OUTPUT);
+  pinMode(ledPin[1], OUTPUT);
+  pinMode(ledPin[2], OUTPUT);
+  pinMode(ledPin[3], OUTPUT);
+  pinMode(ledPin[4], OUTPUT);
+  pinMode(ledPin[5], OUTPUT);
+  
   changeTime = millis();
 }
 
 void loop() {
+  // Verifica se já transcorreram ledDelay ms desde a última alteração
   if ((millis() - changeTime) > ledDelay) {
-    changeLED();
+    // Apaga todos os LEDs
+    digitalWrite(ledPin[0], LOW);
+    digitalWrite(ledPin[1], LOW);
+    digitalWrite(ledPin[2], LOW);
+    digitalWrite(ledPin[3], LOW);
+    digitalWrite(ledPin[4], LOW);
+    digitalWrite(ledPin[5], LOW);
+
+    // Acende o LED atual
+    digitalWrite(ledPin[currentLED], HIGH);
+
+    // Incrementa de acordo com o valor de direction
+    currentLED += direction;
+
+    // Altera a direção se tivermos atingido o fim
+    if (currentLED == 5) {
+      direction = -1;
+    }
+    if (currentLED == 0) {
+      direction = 1;
+    }
+
+    // Atualiza o tempo
     changeTime = millis();
-  }
-}
-
-void changeLED() {
-  for (int x = 0; x < 10; x++) {
-    digitalWrite(ledPin[x], LOW); // Apaga todos os LEDs
-  }
-
-  digitalWrite(ledPin[currentLED], HIGH); // Acende o LED atual
-
-  currentLED += direction;
-
-  if (currentLED == 9) {
-    direction = -1;
-  }
-  if (currentLED == 0) {
-    direction = 1;
   }
 }
 ```
@@ -67,7 +76,6 @@ void changeLED() {
 * `direction`: controla o sentido (avança ou volta).
 * `currentLED`: identifica qual LED está aceso.
 * `millis()`: retorna o tempo desde o início da execução do programa.
-* `changeLED()`: função que troca o LED aceso conforme a direção.
 
 **Executando:**
 

@@ -1,5 +1,3 @@
-// Projeto 4-2 Sirene com o sonorizador piezo
-
 float sinVal;
 int toneVal;
 int piezo=7;

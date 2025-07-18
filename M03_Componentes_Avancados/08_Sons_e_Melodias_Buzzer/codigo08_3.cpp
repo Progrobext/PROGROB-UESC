@@ -1,5 +1,3 @@
-// Projeto 4-3 Tocador de melodia com sonorizador piezo
-
 #define NOTE_C3  131
 #define NOTE_CS3 139
 #define NOTE_D3  147

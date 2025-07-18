@@ -1,6 +1,4 @@
-//Projeto 3-2 Controle de Velocidade com Potenciômetro
-
-byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};  // Array para os pinos dos LEDs
+byte ledPin[] = {8, 9, 10, 11, 12, 13};  // Array para os pinos dos LEDs
 int ledDelay;                                       // Intervalo entre as alterações
 int direction = 1;
 int currentLED = 0;
@@ -8,7 +6,7 @@ unsigned long changeTime;
 int potPin = 5;                                     // Pino de entrada para o potenciômetro
 
 void setup() {
-  for (int x = 0; x < 10; x++) {
+  for (int x = 0; x < 6; x++) {
     pinMode(ledPin[x], OUTPUT);                    // Define todos os pinos como saída
   }
   changeTime = millis();
@@ -26,7 +24,7 @@ void loop() {
 
 void changeLED() {
   // Apaga todos os LEDs
-  for (int x = 0; x < 10; x++) {
+  for (int x = 0; x < 6; x++) {
     digitalWrite(ledPin[x], LOW);
   }
 
@@ -37,7 +35,7 @@ void changeLED() {
   currentLED += direction;
 
   // Altera a direção se tiver atingido o fim
-  if (currentLED == 9) {
+  if (currentLED == 5) {
     direction = -1;
   }
   if (currentLED == 0) {

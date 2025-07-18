@@ -22,7 +22,6 @@ Conecte o pino positivo do buzzer ao pino digital 7 do Arduino, e o pino negativ
 **Código Arduino:**
 
 ```cpp
-// Projeto 4-1 Sons com o sonorizador piezo
 int piezo = 7;
 
 void setup() {
@@ -58,7 +57,6 @@ void loop() {
 **Alarme sirene:**
 
 ```cpp
-// Projeto 4-2 Sirene com o sonorizador piezo
 float sinVal;
 int toneVal;
 int piezo = 7;
@@ -84,8 +82,6 @@ void loop() {
 **Tocador de Melodia:**
 
 ```cpp
-// Projeto 4-3 Tocador de melodia com sonorizador piezo
-
 #define NOTE_C3  131
 #define NOTE_CS3 139
 #define NOTE_D3  147
@@ -155,7 +151,7 @@ void loop() {
 
 **Desafios:**
 
-* Crie uma nova sequência com mais notas.
+* Crie uma nova sequência com mais sons.
 * Crie uma sirene de emergência com tons diferentes.
 * Crie uma musica nova.
 

@@ -1,7 +1,7 @@
 # Controle de Velocidade com Potenciômetro
 
 **Introdução:**
-Nesta continuação do Projeto 6, vamos adicionar um **potenciômetro** ao circuito dos 10 LEDs. Com isso, poderemos **controlar a velocidade** das luzes enquanto o programa estiver rodando!
+Nesta continuação do Projeto 3, vamos adicionar um **potenciômetro** ao circuito dos 10 LEDs. Com isso, poderemos **controlar a velocidade** das luzes enquanto o programa estiver rodando!
 
 **Componentes Necessários:**
 
@@ -22,24 +22,24 @@ Nesta continuação do Projeto 6, vamos adicionar um **potenciômetro** ao circu
 **Escrevendo o Código:**
 
 ```cpp
-// Projeto 3-2 Controle de Velocidade com Potenciômetro
-byte ledPin[] = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
-int ledDelay;
+byte ledPin[] = {8, 9, 10, 11, 12, 13};  // Array para os pinos dos LEDs
+int ledDelay;                                       // Intervalo entre as alterações
 int direction = 1;
 int currentLED = 0;
 unsigned long changeTime;
-int potPin = A2;
+int potPin = 5;                                     // Pino de entrada para o potenciômetro
 
 void setup() {
-  for (int x = 0; x < 10; x++) {
-    pinMode(ledPin[x], OUTPUT);
+  for (int x = 0; x < 6; x++) {
+    pinMode(ledPin[x], OUTPUT);                    // Define todos os pinos como saída
   }
   changeTime = millis();
 }
 
 void loop() {
-  ledDelay = analogRead(potPin);
+  ledDelay = analogRead(potPin);                   // Lê o valor do potenciômetro
 
+  // Verifica se transcorreram ledDelay milissegundos desde a última alteração
   if ((millis() - changeTime) > ledDelay) {
     changeLED();
     changeTime = millis();
@@ -47,14 +47,19 @@ void loop() {
 }
 
 void changeLED() {
-  for (int x = 0; x < 10; x++) {
+  // Apaga todos os LEDs
+  for (int x = 0; x < 6; x++) {
     digitalWrite(ledPin[x], LOW);
   }
 
+  // Acende o LED atual
   digitalWrite(ledPin[currentLED], HIGH);
+
+  // Incrementa de acordo com a direção
   currentLED += direction;
 
-  if (currentLED == 9) {
+  // Altera a direção se tiver atingido o fim
+  if (currentLED == 5) {
     direction = -1;
   }
   if (currentLED == 0) {
