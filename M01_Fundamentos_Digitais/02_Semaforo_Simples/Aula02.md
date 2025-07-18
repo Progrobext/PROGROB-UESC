@@ -1,5 +1,9 @@
 # Semáforo com LEDs e Arduino
 
+[Slides da Aula](https://www.figma.com/slides/s5jNLF4ZcP9EnlOSh17t7u/Pratica-03---ProjExt?node-id=27-188&t=mOUlm4v7F0YT2Reg-1)
+
+[Circuito no TinkerCAD](https://www.tinkercad.com/things/jfaUHLdqSaN-semaforo-normal?sharecode=A6rVPmku4WJfubQlG11RwdZQZYjcIZRK5igHntyRjFs)
+
 **Introdução:**
 Nesta prática, vamos simular um semáforo real usando três LEDs e o Arduino. A sequência segue o padrão do Reino Unido, onde há uma transição com luz vermelha e amarela acesas antes de mudar para o verde.
 
@@ -19,7 +23,7 @@ Nesta prática, vamos simular um semáforo real usando três LEDs e o Arduino. A
 2. Cada LED deve ter um resistor de 150Ω ligado ao seu terminal negativo (cátodo), indo para o GND.
 3. Use um barramento de terra comum na protoboard.
 
-**(Inserir diagrama do circuito aqui)**
+![Circuito Semáforo](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito02.png)
 
 **Código Arduino:**
 

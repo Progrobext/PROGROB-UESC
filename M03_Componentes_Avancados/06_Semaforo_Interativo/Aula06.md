@@ -1,5 +1,9 @@
 # Semáforo Interativo com Botão para Pedestres
 
+[Slides da Aula](https://www.figma.com/slides/p6LHtGzhlMHGxMCmi3T4Ty/Pratica-06---ProjExt?node-id=27-188&t=gYcSK88qcxLFHXPw-1)
+
+[Circuito no TinkerCAD](https://www.tinkercad.com/things/cXCc8BfbFpH-semaforo-interativo?sharecode=undefined)
+
 **Introdução:**
 Nesta prática, vamos ampliar o projeto do semáforo para criar um semáforo interativo com controle para pedestres. Você irá conectar vários LEDs para simular as luzes do semáforo para carros e pedestres, além de usar um botão para que o pedestre possa solicitar a travessia. O Arduino vai reagir ao botão, alterando as luzes para garantir segurança na travessia.
 
@@ -15,7 +19,7 @@ Nesta prática, vamos ampliar o projeto do semáforo para criar um semáforo int
 **Montando o Circuito:**
 Siga o diagrama que conecta LEDs aos pinos 9, 10, 11 para o semáforo dos carros, pinos 1 e 2 para o semáforo dos pedestres, e o botão ao pino 3.
 
-**(Inserir aqui o diagrama do circuito)**
+![Circuito Semáforo Interativo](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito06.png)
 
 **Código Arduino:**
 

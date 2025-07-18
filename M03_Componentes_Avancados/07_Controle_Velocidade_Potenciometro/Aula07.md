@@ -1,15 +1,19 @@
-# Controle de Velocidade com Potenciômetro
+# Efeito KITT Interativo
+
+[Slides da Aula](https://www.figma.com/slides/hsfZFqE0QA1qYWpjMnw5tU/Pratica-07---ProjExt?node-id=27-188&t=9df5k6snX7RTEvjS-1)
+
+[Circuito no TinkerCAD](https://www.tinkercad.com/things/g9wMHgrxYRx-efeitokittinterativo?sharecode=nMA6zubRS6m7Omtrd0Y4CcljWjp7mnKf2EqTykUyzC0)
 
 **Introdução:**
-Nesta continuação do Projeto 3, vamos adicionar um **potenciômetro** ao circuito dos 10 LEDs. Com isso, poderemos **controlar a velocidade** das luzes enquanto o programa estiver rodando!
+Nesta continuação do Projeto 3, vamos adicionar um **potenciômetro** ao circuito dos 6 LEDs. Com isso, poderemos **controlar a velocidade** das luzes enquanto o programa estiver rodando!
 
 **Componentes Necessários:**
 
 * 1x Potenciômetro de 4,7kΩ
 * Circuito anterior com:
 
-  * 10x LEDs
-  * 10x Resistores de 220Ω ou 330Ω
+  * 6x LEDs
+  * 6x Resistores de 220Ω ou 330Ω
 * Arduino Uno + Protoboard
 * 3x Fios Jumper
 
@@ -18,6 +22,8 @@ Nesta continuação do Projeto 3, vamos adicionar um **potenciômetro** ao circu
 * **Terminal esquerdo → 5V do Arduino**
 * **Terminal do meio → Pino A2**
 * **Terminal direito → GND (terra)**
+
+![Circuito Efeito KITT Interativo](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito07.png)
 
 **Escrevendo o Código:**
 

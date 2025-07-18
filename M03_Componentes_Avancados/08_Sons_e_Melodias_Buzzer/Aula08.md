@@ -1,5 +1,9 @@
 # Sons com o Piezoelétrico
 
+[Slides da Aula](https://www.figma.com/slides/xXvUPmGTI14xN6puYqEzFN/Pratica-08---ProjExt?node-id=27-188&t=KZIJTycoNpbaFIwq-1)
+
+[Circuito no TinkerCAD](https://www.tinkercad.com/things/bSto2vElDKw-alarme-piezob?sharecode=vKUXTWfsgoNVQ3eu1HQEV0nxVVQAuXt11TT51nH6xZo)
+
 **Introdução:**
 
 Nesta prática, você vai conhecer o buzzer piezoelétrico e aprender a gerar sons com o Arduino. Utilizaremos a função `tone()` para controlar a frequência sonora e criaremos alarmes ou melodias simples.
@@ -17,7 +21,7 @@ Nesta prática, você vai conhecer o buzzer piezoelétrico e aprender a gerar so
 
 Conecte o pino positivo do buzzer ao pino digital 7 do Arduino, e o pino negativo ao GND. O resistor de 100Ω pode ser colocado em série para limitar corrente (caso necessário).
 
-**(Inserir diagrama do circuito aqui)**
+![Circuito Buzzer Piezo](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito08.png)
 
 **Código Arduino:**
 

@@ -1,21 +1,25 @@
-# Efeito de Iluminação Sequencial com LEDs**
+# Efeito de Iluminação Sequencial com LEDs
+
+[Slides da Aula](https://www.figma.com/slides/42w1OHoANzkWx29bCfO3OC/Pratica-04---ProjExt?node-id=27-188&t=KEfjr5iwj11NrVDW-1)
+
+[Circuito no TinkerCAD](https://www.tinkercad.com/things/6VgCNypta7t-efeitokitt?sharecode=keIYcSwfYSmDRY8gN2b7zJj-tqoRvmV-lzBExSTytWM)
 
 **Introdução:**
-Nesta prática, você aprenderá a controlar 10 LEDs de forma sequencial utilizando **arrays no Arduino**, criando um efeito visual semelhante ao do carro **KITT**, da série *A Super Máquina*.
+Nesta prática, você aprenderá a controlar 6 LEDs de forma sequencial utilizando **arrays no Arduino**, criando um efeito visual semelhante ao do carro **KITT**, da série *A Super Máquina*.
 
 **Componentes Necessários:**
 
 * 1x Placa Arduino Uno
 * 1x Cabo USB
 * 1x Protoboard
-* 10x LEDs (5mm)
-* 10x Resistores de 220Ω
+* 6x LEDs (5mm)
+* 6x Resistores de 220Ω
 * Fios jumper
 
 **Montando o Circuito:**
-Monte o circuito conectando os LEDs aos pinos digitais 4 a 13, cada um com um resistor em série.
+Monte o circuito conectando os LEDs aos pinos digitais 8 a 13, cada um com um resistor em série.
 
-**(Inserir diagrama do circuito aqui)**
+![Circuito Efeito KITT](https://github.com/Progrobext/PROGROB-UESC/blob/main/Imagens/circuito03.png)
 
 **Código Arduino:**
 
